@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BehaviorComponentScript : MonoBehaviour
 {
@@ -25,6 +26,16 @@ public class BehaviorComponentScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.B))
         {
             GetComponent<Renderer>().material.color = Color.blue;
+
+        }
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            GetComponent<Renderer>().material.color = Color.yellow;
+
+        }
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            GetComponent<Renderer>().material.color = Color.white;
 
         }
     }
