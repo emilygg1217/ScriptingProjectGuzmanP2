@@ -17,7 +17,7 @@ public class KeyInput : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        graphic.sprite = standard; 
+        graphic.sprite = standard;
     }
 
     // Update is called once per frame
@@ -47,4 +47,7 @@ public class KeyInput : MonoBehaviour
             boolDisplay2.text = " " + held;
             boolDisplay3.text = " " + held;
         }
+    }
 }
+
+
